@@ -1,0 +1,15 @@
+{
+  "name": "typings-package1-issue",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/ericmdantas/typings-package1-issue.git",
+  "author": "Eric M. Dantas <ericdantas0@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "typescript": "^3.9.5",
+    "typings-package1-issue": "0.0.1"
+  }
+}
