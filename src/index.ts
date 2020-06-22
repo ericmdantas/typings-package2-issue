@@ -1,14 +1,7 @@
-import { MyClass, MyInterface } from "typings-package1-issue" 
+import { MyInterface } from "typings-package1-issue" 
 
-export class MyOtherClass implements MyInterface {
-    prop1 = "x";
-    prop2 = 999;
-    prop3 = true;
-
+export class ClassFromPackage2 implements MyInterface {
     doSomething():string {
-        return "hey there";
+        return "hello from package2!";
     }
 }
-
-export const myclass = new MyClass()
-export const myOtherClass = new MyOtherClass()
