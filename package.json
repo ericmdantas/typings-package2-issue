@@ -1,6 +1,6 @@
 {
   "name": "typings-package1-issue",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/index.js",
   "repository": "https://github.com/ericmdantas/typings-package1-issue.git",
   "author": "Eric M. Dantas <ericdantas0@gmail.com>",
