@@ -1,16 +1,14 @@
-export interface MyInterface {
-    prop1: string;
-    prop2: number;
-    prop3: boolean;
-    doSomething():string;
-}
+import { MyClass, MyInterface } from "typings-package1-issue" 
 
-export class MyClass implements MyInterface {
-    prop1 = "1";
+export class MyOtherClass implements MyInterface {
+    prop1 = "x";
     prop2 = 999;
     prop3 = true;
 
     doSomething():string {
-        return "hello!";
+        return "hey there";
     }
 }
+
+export const myclass = new MyClass()
+export const myOtherClass = new MyOtherClass()

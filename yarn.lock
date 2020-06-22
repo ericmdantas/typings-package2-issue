@@ -7,9 +7,9 @@ typescript@^3.9.5:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
   integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
 
-typings-package1-issue@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/typings-package1-issue/-/typings-package1-issue-0.0.1.tgz#0748ec461bd64cf8b8bd4a957b6e0a696cfc737b"
-  integrity sha512-LJox/0Dvm73S9kdUlX5Anala3sidUdhsfGVEFVhsSLpWoEF+sT9keCtKDq8dA5/I916O8kcu9mt5bBYButfKtg==
+typings-package1-issue@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/typings-package1-issue/-/typings-package1-issue-0.1.2.tgz#7bb111defa22970fe6d77ce8287614fb4a356808"
+  integrity sha512-ZhN4310/7tzCqqkGyZEXJeM+Njil231UyzrRvgLYwd15jch9bJejmup6O6nRv6hZOeTbcp6wFcI/zIXTmXKV3w==
   dependencies:
     typescript "^3.9.5"
