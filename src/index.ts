@@ -5,3 +5,5 @@ export class ClassFromPackage2 implements MyInterface {
         return "hello from package2!";
     }
 }
+
+export const instanceFromPackage2 = new ClassFromPackage2()
